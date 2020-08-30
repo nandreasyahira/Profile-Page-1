@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap')
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to left, #F67280, #F8B195);
+  padding: 0;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: inherit;
+}
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    color: ;
+}
+
+.navlink {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  color: #DBE6AF;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.navlink li{
+  list-style: none;
+}
+
+.navlink a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #DBE6AF;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: #59484F;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  float: left;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 7;
+  background-color: #807E82;
+  padding: 5px;
+  font-family: 'Playfair Display', serif;
+  background-color: #F4dcd6;
+}
+
+article p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+#tanggal {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+/* Style the navigation menu */
+.sidenav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #dfc7c1;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+.sidenav nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidenav li{
+  list-style: none;
+}
+
+.sidenav a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+/* Style the footer */
+footer {
+  background: linear-gradient(to left, #F67280, #F8B195);
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
